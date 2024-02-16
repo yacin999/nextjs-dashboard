@@ -7,6 +7,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  console.log("test next fonts :", inter)
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>{children}</body>
